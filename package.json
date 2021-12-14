@@ -1,0 +1,47 @@
+{
+  "name": "Api-Rest-Clima",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node src/index.js --exec babel-node",
+    "build": "babel src --out-dir dist",
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node src/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axel-Brito/Api-Rest-Clima.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Axel-Brito/Api-Rest-Clima/issues"
+  },
+  "homepage": "https://github.com/Axel-Brito/Api-Rest-Clima#readme",
+  "dependencies": {
+    "@babel/node": "^7.16.0",
+    "@babel/polyfill": "^7.12.1",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "node": "^17.0.1",
+    "node-fetch": "^3.0.0",
+    "pg": "^8.7.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "xlsx": "^0.17.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "nodemon": "^2.0.14"
+  }
+}
